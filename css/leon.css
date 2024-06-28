@@ -1,0 +1,1076 @@
+/* Start Variables */
+:root {
+    --main-color: #10cab7;
+    --secondary-color: #2c4755;
+    --section-padding: 60px;
+    --section-background: #f6f6f6;
+    --main-duration: 0.5s;
+}
+/* End Variables */
+
+
+/* Start Global Rules */
+
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: "Work Sans", sans-serif;
+}
+
+.container {
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+}
+
+/* Large */
+@media (min-width: 1200px) {
+    .container {
+    width: 1200px;
+    }
+    .skills {
+        height: 400px;
+    }
+    .skill1{
+        position: absolute;
+        width: 260px;
+        left: 20%;
+        transform: translateX(-25%);
+        padding-top: 30px;
+    }
+    .skill2{
+        position: absolute;
+        width: 260px;
+        left: 50%;
+        transform: translateX(-50%);
+        padding-top: 30px;
+    }
+    .skill3{
+        position: absolute;
+        width: 260px;
+        left: 80%;
+        transform: translateX(-75%);
+        padding-top: 30px;
+    }
+    .servs .container .fa-solid {
+        position: absolute;
+        left: -50px;
+        top: -50px;
+        display: block;
+        font-size: 40px;
+}
+.about .container .text {
+    position: relative;
+    display: block;
+    width: 550px;
+    left: 60%;
+    top: 50%;
+    transform: translate(-30% , -50%);
+}
+.about .container .color1 {
+    left: 3%;
+    /* margin: auto; */
+}
+.mainserv .headserv .serv {
+    font-size: 110px;
+}
+.mainprot .headprot .prot {
+    font-size: 110px;
+}
+.headabout .about  {
+    font-size: 110px;
+}
+.contact {
+    font-size: 110px;
+}
+}
+
+/* Medium */
+@media (min-width: 992px) and (max-width: 1200px) {
+    .container {
+    width: 970px;
+    }
+    .skills {
+        height: 650px;
+    }
+    .skill1{
+        position: absolute;
+        width: 260px;
+        left: 25%;
+        transform: translateX(-25%);
+    }
+    .skill2{
+        position: absolute;
+        left: 75%;
+        transform: translateX(-75%);
+    }
+    .skill3{
+        position: absolute;
+        bottom: -550px;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    .servs .container .img {
+        display: none;
+    }
+    .servs .container .gd {
+        left: 200px;
+    }
+    .servs .container .wd {
+        left: 600px;
+    }
+    .servs .container .uu {
+        left: 200px;
+    }
+    .servs .container .wde {
+        left: 600px;
+    }
+    .prot .container {
+        display: block;
+        position: relative;
+        height: 760px;
+    }
+    .prot .container .prog1 {
+        position: absolute;
+        width: 350px;
+        left: 15%;
+        transform: translateX(-15%);
+    }
+    .prot .container .prog2 {
+        position: absolute;
+        width: 350px;
+        left: 85%;
+        transform: translateX(-85%);
+    }
+    .prot .container .prog3 {
+        position: absolute;
+        width: 350px;
+        left: 50%;
+        top: 53%;
+        transform: translateX(-50%);
+    }
+    .prog1 , 
+    .prog2 , 
+    .prog3  {
+        position: absolute;
+        width: 100px;
+    }
+    .servs .container .fa-solid {
+        position: absolute;
+        left: -50px;
+        top: -50px;
+        display: block;
+        font-size: 40px;
+}
+.about .container{
+    position: relative;
+    /* display: flex; */
+}
+.about .container .text {
+    position: relative;
+    display: block;
+    width: 420px;
+    left: 50%;
+    top: 50%;
+    transform: translate(-10% , -50%);
+}
+.mainserv .headserv .serv {
+    font-size: 110px;
+}
+.mainprot .headprot .prot {
+    font-size: 110px;
+}
+.headabout .about  {
+    font-size: 110px;
+}
+.contact {
+    font-size: 110px;
+}
+
+}
+
+/* Small */
+@media  (min-width: 768px) and (max-width:992px) {
+    .container {
+    width: 750px;
+    }
+    .skills {
+        height: 800px;
+        position: relative;
+    }
+    .skill1{
+        position: absolute;
+        width: 260px;
+        top: 5%;
+        left: 50%;
+        transform: translate(-50% , -33%);
+    }
+    .skill2{
+        position: absolute;
+        width: 260px;
+        top: 35%;
+        left: 50%;
+        transform: translate(-50% , -33%);
+    }
+    .skill3{
+        position: absolute;
+        width: 260px;
+        top: 66%;
+        left: 50%;
+        transform: translate(-50% , -33%);
+    }
+    .servs .container .img {
+        display: none;
+    }
+    .servs .container .fa-solid {
+        position: absolute;
+        left: -50px;
+        top: -50px;
+        display: block;
+        font-size: 40px;
+    }
+    .about .container {
+        height: 600px;
+        width: 900px;
+    }
+    .about .container .text {
+        position: relative;
+        display: block;
+        width: 100%;
+        left: 50%;
+        top: 75%;
+        transform: translateX(-50%);
+        text-align: center;
+    }
+    .about .container .color1 {
+        left: 50%;
+        top: 0px;
+        transform: translateX(-50%);
+    }
+    .about .container .color1 .main {
+        display: none;
+    }
+    .about .container .color2 {
+        display: none;
+    }
+    .about .container .text hr {
+        left: 0%;
+        transform: translate(0);
+    }
+    .mainserv .headserv .serv {
+        font-size: 110px;
+    }
+    .mainprot .headprot .prot {
+        font-size: 110px;
+    }
+    .headabout .about  {
+        font-size: 110px;
+    }
+    .contact {
+        font-size: 110px;
+    }
+    
+}
+
+/* Smaller */
+@media  (max-width: 768px) {
+    .container {
+        min-width: 90%;
+        /* width: 768px; */
+    }
+    .skills {
+        height: 800px;
+        position: relative;
+    }
+    .skill1{
+        position: absolute;
+        top: 5%;
+        left: 50%;
+        transform: translate(-50% , -33%);
+        min-width: 300px;
+    }
+    .skill2{
+        position: absolute;
+        top: 35%;
+        left: 50%;
+        transform: translate(-50% , -33%);
+        min-width: 300px;
+    }
+    .skill3{
+        position: absolute;
+        top: 66%;
+        left: 50%;
+        transform: translate(-50% , -33%);
+        min-width: 300px;
+    }
+    .servs .container {
+        min-width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 50px;
+    }
+    .servs .container .img {
+        display: none;
+    }
+    .servs .container .fa-solid {
+        display: block;
+        transform: translate(155px, -40px);
+        font-size: 40px;
+    }
+    .servs .container .name {
+        text-align: center;
+    }
+    .servs .container .gd {
+        left: 0;
+        top: 54px;
+        margin-bottom: 50px;
+        min-width: 300px;
+    }
+    .servs .container .wd {
+        left: 70%;
+        transform: translateX(-20%);
+        margin-bottom: 50px;
+        min-width: 300px;
+    }
+    .servs .container .uu {
+        left: 0;
+        min-width: 300px;
+    }
+    .servs .container .wde {
+        left: 70%;
+        transform: translateX(-20%);
+        min-width: 300px;
+    }
+    .mainprot .prot .container {
+        display: grid;
+        grid-template-columns: 1fr ;
+        grid-template-rows: repeat(3 , 1fr);
+        gap: 50px;
+    }
+    .prot .container .prog1 {
+        grid-row-start: 1;
+        grid-row-end: 2;
+    }
+    .prot .container .prog2 {
+        grid-row-start: 2;
+        grid-row-end: 3;
+    }
+    .prot .container .prog3 {
+        grid-row-start: 3;
+        grid-row-end: 4;
+    }
+    .servs .container .fa-solid {
+        position: absolute;
+        left: 50%;
+        top: -50%;
+        transform: translate(-50% , -100%);
+        display: block;
+        font-size: 40px;
+        /* width: 100%; */
+        /* text-align: center; */
+    }
+    .about .container {
+        height: 600px;
+        width: 900px;
+    }
+    .about .container .text {
+        position: relative;
+        display: block;
+        /* width: 480px; */
+        width: 100%;
+        left: 22.5%;
+        top: 75%;
+        transform: translateX(-50%);
+        text-align: center;
+    }
+    .about .container .color1 {
+        left: 50%;
+        top: 0px;
+        transform: translateX(-50%);
+    }
+    .about .container .color1 .main {
+        display: none;
+    }
+    .about .container .color2 {
+        display: none;
+    }
+    .about .container .text hr {
+        left: 0%;
+        transform: translate(0);
+    }
+    .about .container .text {
+        position: relative;
+        display: block;
+        width: 100%;
+        left: 50%;
+        top: 75%;
+        transform: translateX(-50%);
+        text-align: center;
+    }
+    .mainserv .headserv .serv {
+        font-size: 55px;
+        position: absolute;
+        top: 30px;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    .mainprot .headprot .prot {
+        font-size: 55px;
+        position: absolute;
+        top: 47px;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    .headabout .about  {
+        font-size: 75px;
+        position: absolute;
+        top: 32px;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    .contact {
+        font-size: 65px;
+        position: absolute;
+        top: 40px;
+        left: 50%;
+        transform: translateX(-50%);
+    }    
+}
+
+@media (max-width:675px) {
+    .container {
+        min-width: 90%;
+    }
+    .mainserv {
+        height: 1100px;
+    }
+    .about {
+        min-height: 700px;
+        /* max-height: 900px; */
+    }
+    .headserv {
+        padding-bottom: 180px;
+        top: 10px;
+    }
+    .headserv .serv {
+        position: absolute;
+        left: 50%;
+        top: 0px;
+        transform: translateX(-50%);
+    }
+    .servs .container {
+        position: relative;
+        top: 80px;
+        margin-bottom: 200px;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .servs .container .gd {
+        width: 100%;
+        left: 50%;
+        top: 0;
+        transform: translateX(-50%);
+    }
+    .servs .container .wd {
+        width: 100%;
+        left: 50%;
+        top: 15%;
+        transform: translate(-50% , -25%);
+    }
+    .servs .container .uu {
+        width: 100%;
+        left: 50%;
+        top: 30%;
+        transform: translate(-50% , -50%);
+    }
+    .servs .container .wde {
+        width: 100%;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50% , -60%);
+    }
+    .servs .container .fa-solid {
+        display: block;
+        font-size: 40px;
+        width: 100%;
+        text-align: center;
+        top: -55px;
+    }
+    .servs .container .img {
+        display: none;
+    }
+}
+
+
+/* End Global Rules */
+
+/* Start Header */
+
+.header .container {
+    display: flex;
+    justify-content: space-between ;
+    align-items: center;
+    position: relative;
+    background-color: rgb(255, 255, 255);
+    height: 50px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.header .container .toplogo img {
+    width: 60px;
+    position: absolute;
+    top: 10px;
+}
+
+.header .container .menu {
+    display: flex;
+    position: relative;
+    top: 0;
+    right: 0;
+    justify-content: center ;
+    align-items: flex-start;
+    transition: 0.3s;
+    z-index: 1;
+}
+
+.header .container .menu ul {
+    list-style: none;
+    position: absolute;
+    margin: 0;
+    padding: 0;
+    top: 30px;
+    right: 0px ;
+    background-color: #ffffffa2;
+    display: none;
+}
+
+.header .container .menu:hover ul {
+    display: block;
+}
+
+.header .container .menu ul li {
+    position: relative;
+    padding: 15px 15px;
+    width: 200px;
+    transition-duration: 0.3s;
+}
+
+.header .container .menu ul li:hover {
+    padding-left: 25px;
+}
+
+.header .container .menu ul li:not(:nth-last-child(1)) {
+    border-bottom: #ddd solid 1px;
+}
+
+.header .container .menu ul li a{
+    text-decoration: none;
+    color: #333 ;
+}
+
+.header .container .menu .span {
+    display: flex;
+    position: relative;
+    /* top: 10px; */
+    width: 40px;
+    height: 34px;
+    background-color: rgba(211, 211, 211, 0);
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    align-content: space-around;
+}
+
+.header .menu:hover .span span:nth-child(2){
+    width: 100%;
+}
+
+.header .container .menu .span span {
+    background-color: #333;
+    width: 100% ;
+    height: 3px;
+}
+
+.header .container .menu .span .span2 {
+    width: 60% ;
+    align-self: center;
+    transition: ease-in-out;
+    transition-duration: 0.3s;
+}
+
+.header .container .menu .span .span3 {
+    align-self: flex-end;
+}
+
+/* End Header */
+/* Start Landline */
+
+.landing {
+    margin: auto;
+    width: 100%;
+    height: 90vb;
+    position: relative;
+    overflow: hidden;
+    margin-bottom: 100px;
+}
+
+.landing img {
+    margin: auto;
+    width: 190vb ;
+    background-size: cover;
+    height: calc(100vb - 50px);
+    z-index: 0;
+}
+
+.landtext {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 400px;
+    height: 150px;
+    text-align: center;
+    transform: translate(-50% ,-100%);
+}
+
+.landing .firstline {
+    top: 0px;
+    color:#10cab7;
+    text-transform: capitalize;
+    text-align: center ;
+    font-weight: bold;
+    font-size: 50px;
+}
+
+.landing .secondline {
+    position: absolute;
+    width: 300px;
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%);
+    color: #333;
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+/* End Landline */
+/* Start Skills */
+
+.skills {
+    background-color: #F6F6F6;
+}
+
+.skills .container {
+    display: grid;
+    height: 300px;
+    grid-template-columns: repeat( 3 , 1fr ) ;
+    column-gap: 15px;
+    /* box-sizing: border-box; */
+}
+
+
+.skills .container .skill1 {
+    display: grid;
+    height: 100px;
+    margin: 0px 15px ;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.skills .container .skill2 {
+    display: grid;
+    height: 100px;
+    margin: 0px 15px ;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.skills .container .skill3 {
+    display: grid;
+    height: 100px;
+    margin: 0px 15px ;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.fa-solid ,
+.fa-regular
+{
+    margin-top: 50px;
+    font-size: 50px;
+    text-align: center;
+}
+
+.skills .container .des {
+    font-weight: bolder;
+    font-size: large;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.skills .container p {
+    text-align: center;
+    line-height: 1.5;
+    font-size: 16px;
+}
+
+/* End Skills */
+/* Start Services */
+
+.headserv {
+    position: relative;
+    width: 100%;
+    height: 150px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.headserv .serv {
+    /* font-size: 110px; */
+    font-weight: bolder;
+    color: #EBECED;
+    margin-top: 20px;
+    padding: 0;
+}
+
+.headserv .des {
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+    font-size: larger;
+}
+
+.servs .container {
+    position: relative;
+    height: 500px;
+    line-height: 1.6;
+}
+
+.servs .container .fa-solid {
+    position: absolute;
+}
+
+.servs .container .name {
+    font-weight: bold;
+    font-size: large;
+    padding-bottom: 15px ;
+}
+
+.servs .container .des {
+    line-height: 1.3;
+    font-size: 15px;
+    font-weight: 300;
+}
+
+.container .gd{
+    position: relative;
+    width: 270px;
+    left: 60px;
+}
+
+.container .wd {
+    position: relative;
+    width: 270px;
+    left: 450px;
+    top: -120px;
+}
+
+.container .uu{
+    position: relative;
+    width: 270px;
+    left: 60px;
+    top: -50px;
+}
+
+.container .wde {
+    position: relative;
+    width: 270px;
+    left: 450px;
+    top: -170px;
+}
+
+.container>.img{
+
+    position: absolute;
+    top: -13%;
+    right: 0;
+    width: 100px;
+    height: 500px;
+    background-color: #2C4755;
+}
+
+.container>.img img {
+    position: absolute;
+    width: 300px;
+    top: 50%;
+    transform: translate(-75% , -50%);}
+
+/* End Services */
+/* Start protfolio */
+
+.headprot {
+    position: relative;
+    width: 100%;
+    height: 150px;
+    text-align: center;
+}
+
+.headprot .prot {
+    /* font-size: 110px; */
+    font-weight: bolder;
+    color: #EBECED;
+    margin: 0;
+    padding: 0;
+}
+
+.headprot .des {
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+    font-size: larger;
+}
+
+.mainprot {
+    background-color: #F6F6F6;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+.prot {
+    padding-top: 35px;
+}
+
+.prot .container{
+    position: relative;
+    display: grid;
+    grid-template-columns: repeat(3 , 1fr);
+    gap: 20px;
+}
+
+.prot .container img {
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+.prot .container .name {
+    font-weight: bold;
+    font-size: large;
+    padding-bottom: 15px ;
+    margin-left: 15px;
+}
+
+.prot .container .des {
+    line-height: 1.3;
+    font-size: 15px;
+    font-weight: 300;
+    margin-left: 15px;
+    padding: 10px 0 ;
+}
+
+.prog1,
+.prog2,
+.prog3 {
+    background-color: white;
+}
+
+/* End protfolio */
+/* Start About */
+
+.headabout {
+    position: relative;
+    width: 100%;
+    height: 150px;
+    margin-top: 80px;
+    text-align: center;
+}
+
+.headabout .about {
+    /* font-size: 110px; */
+    font-weight: bolder;
+    color: #EBECED;
+}
+
+.headabout .des {
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+    font-size: larger;
+}
+
+.about {
+    margin-bottom: 150px;
+}
+
+.about .container img {
+    width: 250px;
+}
+
+.about .container .color1 {
+    position: relative;
+    width: 250px;
+    height: 375px;
+}
+
+.about .container .color1 .main {
+    position: absolute;
+    left: 190px;
+    top: -40px;
+    background-color: #10CAB7;
+    width: 180px;
+    height: 375px;
+    z-index: -1;
+}
+
+.about .container .color1 .main .second {
+    position: absolute;
+    right: -1px;
+    top: 0;
+    height: 300px;
+    width: 90px;
+    background-color: white;
+}
+
+.about .container .color2 {
+    position: absolute;
+    left: -40px;
+    top: -40px;
+    background-color: #EBECED;
+    width: 90px;
+    height: 450px;
+    z-index: -1;
+}
+.about {
+    position: relative;
+    width: 90%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.about .container {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    width: 90%;
+    position: relative;
+    /* left: 50%;
+    transform: translateX(-50%); */
+}
+
+.about .container .text {
+    position: absolute;
+    flex-wrap: wrap;
+}
+
+.container .text .first {
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 1.4;
+    margin-bottom: 50px;
+}
+
+.container .text hr {
+    display: flex;
+    height: 1px;
+    width: 50%;
+    transform: translateX(-49%);
+    left: 0;
+    top: 35%;
+    background-color: #09766b;
+    border-bottom: #10CAB7 solid 1px;
+}
+
+.container .text .second {
+    line-height: 1.4;
+    margin-bottom: 50px;
+    margin-top: 30px;
+}
+
+/* End About */
+/* Start Contact */
+
+.maincon{
+    background-color: #F6F6F6;
+    text-align: center;
+    height: 400px;
+    padding-bottom: 420px;
+    /* text-wrap: wrap; */
+}
+
+.headcontact {
+    position: relative;
+    width: 100%;
+    height: 150px;
+    margin-top: 80px;
+    text-align: center;
+}
+
+.headcontact .contact {
+    /* font-size: 110px; */
+    font-weight: bolder;
+    color: #EBECED;
+    padding-top: 20px;
+}
+
+.headcontact .des {
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50% , 40%);
+    font-size: larger;
+}
+
+.maincon .feel{
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    padding-bottom: 0px;
+    font-weight: bold;
+    color:#2C4755;
+    font-size: 30px;
+}
+
+.maincon a {
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    margin: auto;
+    color: #10CAB7;
+    font-weight: bold;
+    font-size: 22px;
+    width: fit-content;
+}
+
+.finish {
+    color: #2c4755;
+    margin-top: 25px ;
+    padding-bottom: 50px;
+}
+
+/* End Contact */
+/* Start Footer */
+
+.footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #2C4755;
+    color: white;
+}
+
+.footer span {
+    color: #10CAB7;
+}
+
+/* End Footer */
